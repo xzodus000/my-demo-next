@@ -1,4 +1,3 @@
-// countryService.tsx
 import { useQuery, gql } from "@apollo/client";
 import client from "../config/apolloClient";
 

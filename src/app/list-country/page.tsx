@@ -1,4 +1,3 @@
-// src/pages/CardListPage.js
 "use client";
 import React, { useEffect, useState } from "react";
 import CardList from "../../../component/CardList";
