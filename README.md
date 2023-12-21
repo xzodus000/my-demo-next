@@ -4,7 +4,7 @@
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone [https://link-to-project](https://github.com/xzodus000/my-demo-next.git)
 ```
 
 Go to the project directory
