@@ -10,7 +10,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd my-demo-nex
+  cd my-demo-next
 ```
 
 Install dependencies
