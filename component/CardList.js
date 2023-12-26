@@ -1,6 +1,7 @@
 // src/components/CardList.js
 import React from "react";
 import { Card, Image } from "antd";
+import Item from "antd/es/list/Item";
 const { Meta } = Card;
 const CardList = ({ data }) => {
   return (
@@ -20,7 +21,12 @@ const CardList = ({ data }) => {
           style={{ width: 240 }}
           cover={<Image alt="example" src={item.imageFlag} />}
         >
-          <Meta title={item.code} description={item.name} />
+          <Meta
+            title={`${item.name} (${item.code})`}
+            description={`${item.languages.map((Item) => {
+              return Item.name;
+            })}`}
+          />
         </Card>
       ))}
     </div>

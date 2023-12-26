@@ -32,6 +32,9 @@ const getCountryData = (filter: string): GetCountryDataResult => {
           emoji
           currency
           name
+          languages{
+            name
+          }
         }
       }
     }
